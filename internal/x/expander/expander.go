@@ -6,9 +6,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
-	"github.com/sqlc-dev/sqlc/internal/sql/format"
+	"github.com/thedemons/sqlc/internal/sql/ast"
+	"github.com/thedemons/sqlc/internal/sql/astutils"
+	"github.com/thedemons/sqlc/internal/sql/format"
 )
 
 // Parser is an interface for SQL parsers that can parse SQL into AST statements.

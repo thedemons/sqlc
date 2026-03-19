@@ -11,10 +11,10 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	migrate "github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/docker"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/native"
+	migrate "github.com/thedemons/sqlc/internal/migrations"
+	"github.com/thedemons/sqlc/internal/sql/sqlpath"
+	"github.com/thedemons/sqlc/internal/sqltest/docker"
+	"github.com/thedemons/sqlc/internal/sqltest/native"
 )
 
 var mysqlSync sync.Once

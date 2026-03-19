@@ -10,9 +10,9 @@ import (
 	"github.com/pingcap/tidb/pkg/parser"
 	_ "github.com/pingcap/tidb/pkg/parser/test_driver"
 
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	"github.com/thedemons/sqlc/internal/source"
+	"github.com/thedemons/sqlc/internal/sql/ast"
+	"github.com/thedemons/sqlc/internal/sql/sqlerr"
 )
 
 func NewParser() *Parser {

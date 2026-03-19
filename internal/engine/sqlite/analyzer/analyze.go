@@ -9,14 +9,14 @@ import (
 	"github.com/ncruces/go-sqlite3"
 	_ "github.com/ncruces/go-sqlite3/embed"
 
-	core "github.com/sqlc-dev/sqlc/internal/analysis"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/shfmt"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
-	"github.com/sqlc-dev/sqlc/internal/sql/named"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlerr"
+	core "github.com/thedemons/sqlc/internal/analysis"
+	"github.com/thedemons/sqlc/internal/config"
+	"github.com/thedemons/sqlc/internal/opts"
+	"github.com/thedemons/sqlc/internal/shfmt"
+	"github.com/thedemons/sqlc/internal/sql/ast"
+	"github.com/thedemons/sqlc/internal/sql/catalog"
+	"github.com/thedemons/sqlc/internal/sql/named"
+	"github.com/thedemons/sqlc/internal/sql/sqlerr"
 )
 
 type Analyzer struct {

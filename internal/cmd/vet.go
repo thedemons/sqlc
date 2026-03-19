@@ -6,7 +6,6 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/sqlc-dev/sqlc/internal/constants"
 	"io"
 	"log"
 	"os"
@@ -17,6 +16,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/thedemons/sqlc/internal/constants"
+
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/google/cel-go/cel"
 	"github.com/google/cel-go/ext"
@@ -24,16 +25,16 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/dbmanager"
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	"github.com/sqlc-dev/sqlc/internal/shfmt"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
-	"github.com/sqlc-dev/sqlc/internal/vet"
+	"github.com/thedemons/sqlc/internal/config"
+	"github.com/thedemons/sqlc/internal/dbmanager"
+	"github.com/thedemons/sqlc/internal/debug"
+	"github.com/thedemons/sqlc/internal/migrations"
+	"github.com/thedemons/sqlc/internal/opts"
+	"github.com/thedemons/sqlc/internal/plugin"
+	"github.com/thedemons/sqlc/internal/quickdb"
+	"github.com/thedemons/sqlc/internal/shfmt"
+	"github.com/thedemons/sqlc/internal/sql/sqlpath"
+	"github.com/thedemons/sqlc/internal/vet"
 )
 
 var ErrFailedChecks = errors.New("failed checks")

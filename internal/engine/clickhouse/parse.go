@@ -7,8 +7,8 @@ import (
 
 	"github.com/sqlc-dev/doubleclick/parser"
 
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/thedemons/sqlc/internal/source"
+	"github.com/thedemons/sqlc/internal/sql/ast"
 )
 
 func NewParser() *Parser {

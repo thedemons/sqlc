@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/cmd"
-	"github.com/sqlc-dev/sqlc/internal/sqltest"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/local"
+	"github.com/thedemons/sqlc/internal/cmd"
+	"github.com/thedemons/sqlc/internal/sqltest"
+	"github.com/thedemons/sqlc/internal/sqltest/local"
 )
 
 func findSchema(t *testing.T, path string) (string, bool) {

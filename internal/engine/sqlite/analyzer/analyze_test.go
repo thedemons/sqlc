@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/thedemons/sqlc/internal/config"
+	"github.com/thedemons/sqlc/internal/sql/ast"
 )
 
 func TestAnalyzer_Analyze(t *testing.T) {

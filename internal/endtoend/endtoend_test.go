@@ -14,11 +14,11 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/sqlc-dev/sqlc/internal/cmd"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/docker"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/native"
+	"github.com/thedemons/sqlc/internal/cmd"
+	"github.com/thedemons/sqlc/internal/config"
+	"github.com/thedemons/sqlc/internal/opts"
+	"github.com/thedemons/sqlc/internal/sqltest/docker"
+	"github.com/thedemons/sqlc/internal/sqltest/native"
 )
 
 func lineEndings() cmp.Option {

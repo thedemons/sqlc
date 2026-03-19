@@ -13,11 +13,11 @@ import (
 	"github.com/ncruces/go-sqlite3"
 	_ "github.com/ncruces/go-sqlite3/embed"
 
-	"github.com/sqlc-dev/sqlc/internal/engine/dolphin"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/docker"
-	"github.com/sqlc-dev/sqlc/internal/sqltest/native"
+	"github.com/thedemons/sqlc/internal/engine/dolphin"
+	"github.com/thedemons/sqlc/internal/engine/postgresql"
+	"github.com/thedemons/sqlc/internal/engine/sqlite"
+	"github.com/thedemons/sqlc/internal/sqltest/docker"
+	"github.com/thedemons/sqlc/internal/sqltest/native"
 )
 
 // PostgreSQLColumnGetter implements ColumnGetter for PostgreSQL using pgxpool.
